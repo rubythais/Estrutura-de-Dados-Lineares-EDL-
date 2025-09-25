@@ -1,7 +1,7 @@
-class PilhaColorida { // implementa duas pilhas independentes (ermelha e preta) usando um  array só
+public class PilhaColorida { // implementa duas pilhas independentes (ermelha e preta) usando um  array só
     private String[] array; 
     private int topVermelha;    
-    private int topPreta;  
+    private int topPreta;  /
     private int capacidade;
 
     public PilhaColorida(int capacidadeInicial) {
@@ -87,3 +87,6 @@ class PilhaColorida { // implementa duas pilhas independentes (ermelha e preta) 
     public int sizePreta() { return capacidade - topPreta; }
     public int capacity() { return capacidade; }
 }
+
+exit
+
